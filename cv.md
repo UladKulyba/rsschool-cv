@@ -15,8 +15,7 @@ I am a manual QA engineer.
 
 My work is primarily focused on improving quality of Web application. I’m here because I want to upgrade my skills in writing code.
 
-> *— You are, without doubt, the worst pirate I've ever heard of.
-> — But you have heard of me.* &copy; 
+> *The purpose of a storytelling is not to tell you how to think, but to give you questions to think upon* &copy; 
 
 ## Skills
 
