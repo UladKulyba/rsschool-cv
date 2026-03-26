@@ -34,26 +34,58 @@
 	<main>
 		<section class="about-me" id="about-me">
 			<h1>Uladzislau Kulyba</h1>
-			<img src="/rsschool-cv/assets/myPhoto.jpg"  width="200" alt="photo">
+			<img src="/rsschool-cv/assets/myPhoto.jpg"  width="400" alt="photo">
 			<h3>Manual QA engineer</h3>
 			<p>I am a manual QA engineer. My work is primarily focused on improving quality of Web application. I&apos;m here because I want to upgrade my skills in writing code.</p>
 		</section>
-		<section class="contacts">
+		<section class="contacts" id="contacts">
 			<h2>Contacts</h2>
 			<a href="tel:+375447609386" target="_blank">Phone</a>
 			<a href="mailto:vladislavkulyba@gmail.com" target="_blank">Email</a>
 			<a href="https://github.com/UladKulyba" target="_blank">GitHub</a>
 		</section>
-		<section class="skills">
+		<section class="skills" id="skills">
 			<h2>Skills</h2>
+			<ol>
+				<li>Strong experience in manual functional testing</li>
+				<li>Performing different test design techniques</li>
+				<li>Requirements analysis and clarification</li>
+				<li>Experience in testing Web, mobile and desktop applications</li>
+				<li>HTML & CSS</li>
+				<li>SQL</li>
+			</ol>
 		</section>
-		<section class="code">
+		<section class="code" id="code">
 			<h2>Code Example</h2>
+			<p>
+				The instruction was next: “Create a function which allows to split general sentence from question”. <br> The solution that I made:
+			</p>
+			<pre>
+				<code>
+const getTypeOfSentece = (sentence) => {
+
+	const lastChar = sentence[sentence.length - 1];
+
+	if (lastChar === '?') {
+
+		return 'question';
+
+	} else if (lastChar === '!') {
+
+		return 'exclamation!';
+
+	} else 
+
+	return 'general';
+
+}
+				</code>
+			</pre>
 		</section>
-		<section class="education">
+		<section class="education" id="education">
 			<h2>Education</h2>
 		</section>
-		<section class="language">
+		<section class="language" id="language">
 			<h2>Languages</h2>
 		</section>
 	</main>
