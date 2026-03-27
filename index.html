@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CV</title>
+	<link rel="icon" type="image/x-icon" href="/rsschool-cv/assets/favicon.png">
+	<title>CV Uladzislau Kulyba</title>
 </head>
 <body>
 	<header>
@@ -40,9 +41,20 @@
 		</section>
 		<section class="contacts" id="contacts">
 			<h2>Contacts</h2>
-			<a href="tel:+375447609386" target="_blank">Phone</a>
-			<a href="mailto:vladislavkulyba@gmail.com" target="_blank">Email</a>
-			<a href="https://github.com/UladKulyba" target="_blank">GitHub</a>
+			<div class="contacts-container">
+				<a class="contacts-item"	href="tel:+375447609386" target="_blank">
+					<img src="/rsschool-cv/assets/phone.png" alt="phone">
+					<p>Phone</p>
+				</a>
+				<a class="contacts-item" href="mailto:vladislavkulyba@gmail.com" target="_blank">
+					<img src="/rsschool-cv/assets/email.png" alt="email">
+					<p>Email</p>
+				</a>
+				<a class="contacts-item" href="https://github.com/UladKulyba" target="_blank">
+					<img src="/rsschool-cv/assets/github.png" alt="github">
+					<p>Github</p>
+				</a>
+			</div>
 		</section>
 		<section class="skills" id="skills">
 			<h2>Skills</h2>
@@ -84,15 +96,31 @@ const getTypeOfSentece = (sentence) => {
 		</section>
 		<section class="education" id="education">
 			<h2>Education</h2>
+			<p>Belarusian State University of Informatics and Radioelectronics
+				<br>
+			Faculty of Radioengineering and Electronics
+				<br>
+			Master of Science in Engineering</p>
+			<p>Don't have any projects yet</p>
 		</section>
 		<section class="language" id="language">
 			<h2>Languages</h2>
+			<ul>
+				<li>Russian (native speaker)</li>
+				<li>English (intermediate, B1)</li>
+			</ul>
 		</section>
 	</main>
 	<footer>
-		<div class="logo-footer"></div>
-		<div class="github-logo"></div>
-		<div class="year"></div>
+		<div class="logo-footer">
+
+		</div>
+		<div class="github-logo">
+			<img src="/rsschool-cv/assets/github.png" alt="github">
+		</div>
+		<div class="year">
+			<p>&copy; 2026</p>
+		</div>
 	</footer>
 </body>
 </html>
