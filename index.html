@@ -7,26 +7,13 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Forum&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-	<style>
-		* {
-			font-family: "Amatic SC", sans-serif;
-			font-weight: 700;
-		}
-		p, li {
-			font-family: "Forum", serif;
-			font-weight: 700;
-		}
-
-	code {
-		font-family: "Source Code Pro", monospace;
-	}
-	</style>
+	<link rel="stylesheet" href="/rsschool-cv/css/style.css">
 	<title>CV Uladzislau Kulyba</title>
 </head>
 <body>
 	<header>
 		<nav>
-			<ul>
+			<ul class="header-nav">
 				<li>
 					<a href="#about-me">About Me</a>
 				</li>
@@ -51,7 +38,7 @@
 	<main>
 		<section class="about-me" id="about-me">
 			<h1>Uladzislau Kulyba</h1>
-			<img src="/rsschool-cv/assets/myPhoto.jpg"  width="400" alt="photo">
+			<img class="ava" src="/rsschool-cv/assets/myPhoto.jpg"  alt="photo">
 			<h3>Manual QA engineer</h3>
 			<p>I am a manual QA engineer. My work is primarily focused on improving quality of Web application. I&apos;m here because I want to upgrade my skills in writing code.</p>
 		</section>
@@ -128,11 +115,15 @@ const getTypeOfSentece = (sentence) => {
 		</section>
 	</main>
 	<footer>
-		<div class="logo-footer">
-			<img src="/rsschool-cv/assets/rs-school-logo.svg" alt="rsschool" width="100">
+		<div>
+			<a class="logo-footer" href="https://rs.school/courses/javascript">
+				<img src="/rsschool-cv/assets/rs-school-logo.svg" alt="rsschool" width="100">
+			</a>
 		</div>
-		<div class="github-logo">
-			<img src="/rsschool-cv/assets/github.png" alt="github">
+		<div>
+			<a class="github-logo" href="https://github.com/UladKulyba">
+				<img src="/rsschool-cv/assets/github.png" alt="github">
+			</a>
 		</div>
 		<div class="year">
 			<p>&copy; 2026</p>
