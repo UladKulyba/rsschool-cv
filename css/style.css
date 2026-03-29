@@ -41,6 +41,7 @@ header {
 	flex-direction: row;	
 	justify-content: space-around;
 	list-style-type: none;
+	padding-inline-start: 0;
 }
 
 main {
@@ -61,6 +62,7 @@ main > section {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 60px;
+	min-height: 95vh;
 }
 
 .about-me > p {
@@ -71,8 +73,24 @@ main > section {
 .ava {
 	border-radius:15%;
 	border: 1px solid orange;
-	max-width: 30%;
+	max-width: 45%;
 	opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+	.ava {
+	border-radius:15%;
+	border: 1px solid orange;
+	max-width: 70%;
+	opacity: 0.9;
+}
+
+.about-me {
+	min-height: 75vh;
+}
+
+
+
 }
 
 .contacts {
