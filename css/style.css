@@ -1,1 +1,124 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: bisque;
+}
 
+
+* {
+	font-family: "Amatic SC", sans-serif;
+	font-weight: 700;
+	scroll-behavior: smooth;
+}
+
+p, li {
+	font-family: "Forum", serif;
+	font-weight: 700;
+}
+
+code {
+	font-family: "Source Code Pro", monospace;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	transition: 0.2s;
+}
+
+a:hover {
+	color: white;
+}
+
+header {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.header-nav {
+	margin: 20px;
+	display: flex;
+	flex-direction: row;	
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+main {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+main > section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 10px;
+}
+
+.about-me {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.about-me > p {
+	max-width: 400px;
+}
+
+
+.ava {
+	border-radius:15%;
+	border: 1px solid orange;
+	max-width: 30%;
+	opacity: 0.9;
+}
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contacts-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.contacts-item {
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contacts-item > p {
+	margin: 10px;
+}
+
+.skills {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+pre {
+	background-color: #f4f4f4;
+	padding: 15px;
+	border: 1px solid #ddd;
+	white-space: pre-wrap;
+}
+
+footer {
+	max-width: 1280px;
+	padding: 0 10px;
+	margin: 40px auto 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.github-logo > img {
+	width: 42px;
+}
