@@ -41,6 +41,7 @@ header {
 	flex-direction: row;	
 	justify-content: space-around;
 	list-style-type: none;
+	padding-inline-start: 0;
 }
 
 main {
@@ -61,6 +62,7 @@ main > section {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 60px;
+	min-height: 95vh;
 }
 
 .about-me > p {
@@ -71,8 +73,24 @@ main > section {
 .ava {
 	border-radius:15%;
 	border: 1px solid orange;
-	max-width: 30%;
+	max-width: 45%;
 	opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+	.ava {
+	border-radius:15%;
+	border: 1px solid orange;
+	max-width: 70%;
+	opacity: 0.9;
+}
+
+.about-me {
+	min-height: 75vh;
+}
+
+
+
 }
 
 .contacts {
@@ -102,7 +120,36 @@ main > section {
 	align-items: center;
 }
 
+#project {
+	display: none;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	margin: 20px;
+	text-align: center;
+}
 
+#project p:first-of-type{
+	
+	font-size: 1.5em;
+	text-transform: uppercase;
+	animation-name: myAnimation;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes myAnimation {
+	0%	{color: #2f2530;}
+	25%	{color: #7a5b4b;}
+	50%	{color: #a06b55;}
+	100%	{color: #c8a39e;}
+}
+
+button {
+	font-family: "Source Code Pro", monospace;
+	width: 30%;
+	min-height: 40px;
+}
 
 pre {
 	background-color: #f4f4f4;

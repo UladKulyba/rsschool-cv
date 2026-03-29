@@ -38,8 +38,8 @@
 	<main>
 		<section class="about-me" id="about-me">
 			<h1>Uladzislau Kulyba</h1>
-			<img class="ava" src="/rsschool-cv/assets/myPhoto.jpg"  alt="photo">
-			<h3>Manual QA engineer</h3>
+			<img class="ava" src="/rsschool-cv/assets/myPhoto.jpg" alt="photo">
+			<h2>Manual QA engineer</h2>
 			<p>I am a manual QA engineer. My work is primarily focused on improving quality of Web application. I&apos;m here because I want to upgrade my skills in writing code.</p>
 		</section>
 		<section class="contacts" id="contacts">
@@ -104,7 +104,14 @@ const getTypeOfSentece = (sentence) => {
 			Faculty of Radioengineering and Electronics
 				<br>
 			Master of Science in Engineering</p>
-			<p>Don't have any projects yet...</p>
+			<p>To get access to projects your need to click "Go to projects" button</p>
+			<button type="button" onclick="document.getElementById('project').style.display='flex'">Go to projects</button>
+			<div id="project">
+				<img src="/rsschool-cv/assets/rickroll-roll.gif" alt="troll">
+				<p>You Have Just Been Rickrolled</p>
+				<p>Just kidding &#128522<br>
+				I don't have any projects yet... But I'm on my way</p>
+			</div>
 		</section>
 		<section class="language" id="language">
 			<h2>Languages</h2>
@@ -116,12 +123,12 @@ const getTypeOfSentece = (sentence) => {
 	</main>
 	<footer>
 		<div>
-			<a class="logo-footer" href="https://rs.school/courses/javascript">
+			<a class="logo-footer" href="https://rs.school/courses/javascript" target="_blank">
 				<img src="/rsschool-cv/assets/rs-school-logo.svg" alt="rsschool" width="100">
 			</a>
 		</div>
 		<div>
-			<a class="github-logo" href="https://github.com/UladKulyba">
+			<a class="github-logo" href="https://github.com/UladKulyba" target="_blank">
 				<img src="/rsschool-cv/assets/github.png" alt="github">
 			</a>
 		</div>
