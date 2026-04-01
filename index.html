@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="/rsschool-cv/assets/favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Forum&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/rsschool-cv/css/style.css">
+	<title>CV Uladzislau Kulyba</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="header-nav">
+				<li>
+					<a href="#about-me">About Me</a>
+				</li>
+				<li>
+					<a href="#contacts">Contacts</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#code">Code Example</a>
+				</li>
+				<li>
+					<a href="#education">Education</a>
+				</li>
+				<li>
+					<a href="#language">Languages</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="about-me" id="about-me">
+			<h1>Uladzislau Kulyba</h1>
+			<img class="ava" src="/rsschool-cv/assets/myPhoto.jpg" alt="photo">
+			<h2>Manual QA engineer</h2>
+			<p>I am a manual QA engineer. My work is primarily focused on improving quality of Web application. I&apos;m here because I want to upgrade my skills in writing code.</p>
+		</section>
+		<section class="contacts" id="contacts">
+			<h2>Contacts</h2>
+			<ul class="contacts-container">
+				<li>
+					<a class="contacts-item"	href="tel:+375447609386" target="_blank">
+					<img src="/rsschool-cv/assets/phone.png" alt="phone">
+					<p>Phone</p>
+				</a>
+				</li>
+				<li>
+					<a class="contacts-item" href="mailto:vladislavkulyba@gmail.com" target="_blank">
+						<img src="/rsschool-cv/assets/email.png" alt="email">
+						<p>Email</p>
+					</a>
+				<li>
+					<a class="contacts-item" href="https://github.com/UladKulyba" target="_blank">
+						<img src="/rsschool-cv/assets/github.png" alt="github">
+						<p>Github</p>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<section class="skills" id="skills">
+			<h2>Skills</h2>
+			<ol>
+				<li>Strong experience in manual functional testing</li>
+				<li>Performing different test design techniques</li>
+				<li>Requirements analysis and clarification</li>
+				<li>Experience in testing Web, mobile and desktop applications</li>
+				<li>HTML & CSS</li>
+				<li>SQL</li>
+			</ol>
+		</section>
+		<section class="code" id="code">
+			<h2>Code Example</h2>
+			<p>
+				The instruction was next: “Create a function which allows to split general sentence from question”. <br> The solution that I made:
+			</p>
+			<pre>
+				<code>
+const getTypeOfSentece = (sentence) => {
+
+	const lastChar = sentence[sentence.length - 1];
+
+	if (lastChar === '?') {
+
+		return 'question';
+
+	} else if (lastChar === '!') {
+
+		return 'exclamation!';
+
+	} else 
+
+	return 'general';
+
+}
+				</code>
+			</pre>
+		</section>
+		<section class="education" id="education">
+			<h2>Education</h2>
+			<p>Belarusian State University of Informatics and Radioelectronics
+				<br>
+			Faculty of Radioengineering and Electronics
+				<br>
+			Master of Science in Engineering</p>
+			<p>To get access to projects your need to click "Go to projects" button</p>
+			<button type="button" onclick="document.getElementById('project').style.display='flex'">Go to projects</button>
+			<div id="project">
+				<img src="/rsschool-cv/assets/rickroll-roll.gif" alt="troll">
+				<p>You Have Just Been Rickrolled</p>
+				<p>Just kidding &#128522; <br>
+				I don't have any projects yet... But I'm on my way</p>
+			</div>
+		</section>
+		<section class="language" id="language">
+			<h2>Languages</h2>
+			<ul>
+				<li>Russian (native speaker)</li>
+				<li>English (intermediate, B1)</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<div>
+			<a class="logo-footer" href="https://rs.school/courses/javascript" target="_blank">
+				<img src="/rsschool-cv/assets/rs-school-logo.svg" alt="rsschool" width="100">
+			</a>
+		</div>
+		<div>
+			<a class="github-logo" href="https://github.com/UladKulyba" target="_blank">
+				<img src="/rsschool-cv/assets/github.png" alt="github">
+			</a>
+		</div>
+		<div class="year">
+			<p>&copy; 2026</p>
+		</div>
+	</footer>
+</body>
+</html>
